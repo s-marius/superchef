@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Super Chef</title>
+    <link href="/styles/material-icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <link rel="manifest" href="/manifest.json">
+    <meta name="google" content="notranslate">
+</head>
+
+<body>
+<div class="background">
+    <br><br><br><br><br><br><br>
+    <div id="canvas-container"></div>
+    <!-- <button class="login" onclick="login()">
+      <svg xmlns="http://www.w3.org/2000/svg" class="svg" width="20" height="20"  viewBox="0 0 24 24"><path fill="#fff" d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/></svg>
+      <span>Login</span></button> -->
+    <audio loop id="title-sound">
+        <source src="/assets/sounds/title.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <audio  id="button-sound">
+        <source src="/assets/sounds/button.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <div id="welcome-screen">
+        <div id="buy-alert">
+            <button class="buy little">Buy 120 cookies</button>
+            <button class="buy" id="big">Buy 500 cookies</button>
+            <button class="buy" id="insane>Buy 1000 cookies</button>
+        </div>
+        <canvas id="pizza"></canvas>
+        <p class="pls-wait"><span>P</span><span>L</span><span>E</span><span>A</span><span>S</span><span>E</span><span> </span><span>W</span><span>A</span><span>I</span><span>T</span></p>
+        <img src="/assets/scene/big-logo.png" alt="Super Chef" id="logo">
+        <div class="button-box">
+            <button class="button play-btn"><i class="play material-icons">play_arrow</i>&nbsp;<span class="pl-text"></span></button>
+            <button class="button settings-btn"><i class="settings material-icons">settings</i>&nbsp;</button>
+            <button class="button achiv-btn"><i class="achiv material-icons">restaurant_menu</i></button>
+        </div>
+        <p class="total-score"><span class="ts-text">
+        <span>T</span>
+        <span>O</span>
+        <span>T</span>
+        <span>A</span>
+        <span>L</span>
+        <span></span>
+        <span>S</span>
+        <span>C</span>
+        <span>O</span>
+        <span>R</span>
+        <span>E</span>
+      </span> <span id="total-score">0</span></p>
+        <p class="copyright">&copy; 2018 Marius</p>
+        <div id="money-place">
+            <p id="vault"><span>0</span></p>
+            <i class="buy-icon material-icons">add</i>
+            <img src="/assets/profile/Coins.png" id="cookie-welcome" alt="Cookie for purchases">
+        </div>
+        <div id="rank">
+            <p id="rank-text"></p>
+            <img src="/assets/profile/Points.png" id="rank-welcome" alt="Rank">
+        </div>
+    </div>
+    <div id="clock_wrapper">
+        <canvas id="clock" width="300" height="300"></canvas>
+        <div id="timer"></div>
+    </div>
+
+    <div id="settings-screen">
+        <button class="back-btn"><i class="back-icon material-icons">arrow_back</i></button>
+        <img src="/assets/scene/text-logo.png" alt="Super Chef Text" id="logo-text">
+        <p class="settings-text">Settings</p>
+        <div class="settings-box">
+            <div class="music-sf">
+                <button id="volume-sf"><i class="volume-icon-sf material-icons">volume_up</i></button>
+                <p><span class="vol-text">Volume</span> <span class="on-off-sf"></span></p>
+            </div>
+            <div class="music">
+                <button id="volume" class="off"><i class="volume-icon material-icons">music_note</i></button>
+                <p><span class="mus-text">Music</span> <span class="on-off"></span></p>
+            </div>
+            <div class="vibration">
+                <button id="vibration" class="off"><i class="vibration-icon material-icons">vibration</i></button>
+                <p><span class="vib-text">Vibrations</span> <span class="on-off-vib"></span></p>
+            </div>
+            <div class="language">
+                <button id="language" class="off"><i class="language-icon material-icons">language</i></button>
+                <p><span class="lang-text">English</span></p>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2018 Marius</p>
+    </div>
+
+
+    <div style="display: none" id="play-screen">
+        <img src="/assets/scene/text-logo.png" alt="Super Chef Text" id="logo-text">
+        <div id="question-box">
+            <h1 class="nume-reteta"></h1>
+            <p id="ingr">Ingrediente:</p>
+            <div class="lista-ingrediente">
+                <ul class="simple">
+                </ul>
+                <ul class="complex">
+                </ul>
+            </div>
+        </div>
+        <div id="answers">
+            <div class="sus">
+                <button disabled class="answer one"></button>
+                <button disabled class="answer two"></button>
+            </div>
+            <div class="jos">
+                <button disabled class="answer three"></button>
+                <button  disabled class="answer four"></button>
+            </div>
+        </div>
+        <div class="hint-div">
+            <button id="hint2"><i class="idea material-icons">lightbulb_outline</i></button>
+            <div class="infos">
+                <p id="hint-price">60</p>
+                <img src="/assets/profile/money.png" id="cookie-hint" alt="Hint price on cookies">
+            </div>
+        </div>
+    </div>
+
+    <div id="tutorial-screen">
+        <div class="alert">
+            <div class="alert-box">
+                <p class="alert-text"></p>
+                <button class="alert-button"></button>
+            </div>
+        </div>
+        <img src="/assets/scene/text-logo.png" alt="Super Chef Text" id="logo-text">
+        <div id="question-box">
+            <h1 class="nume-reteta">Pizza</h1><br /><br />
+            <img src="/assets/tutorial/title-dial.png" id="dial" class="title" alt="Title Dialog Box">
+            <img src="/assets/tutorial/ingr-dial.png" class="ingrediends-dial" alt="Ingrediends Dialog Box">
+            <img src="/assets/tutorial/answer-dial.png" id="dial" class="answers-dial" alt="Answers Dialog Box">
+            <p id="ingr" class="blur"></p>
+            <div class="lista-ingrediente blur">
+                <ul class="simple">
+                    <li>Mushrooms</li>
+                    <li>Cheese</li>
+                    <li>Ham</li>
+                </ul>
+                <ul class="complex">
+                </ul>
+            </div>
+        </div>
+        <button class="next title-pos">Next</button>
+        <div id="answers" class="blur">
+            <div class="sus">
+                <button disabled class="answer-tut one"></button>
+                <button disabled class="answer-tut two"></button>
+            </div>
+            <div class="jos">
+                <button disabled class="answer-tut three">Shark tail</button>
+                <button disabled class="answer-tut four">Dust</button>
+            </div>
+        </div>
+    </div>
+    <div id="final-screen">
+        <i class="home material-icons">home</i>
+        <img src="/assets/scene/text-logo.png" alt="Super Chef Text" id="logo-text">
+        <div id="score-bubble">
+            <p class="session-score">Score <span id="session-score-text"></span></p>
+        </div>
+        <img src="/assets/scene/final-chef.png" alt="Final Session Chef" id="final-chef">
+        <button id="play-again">Play again</button>
+    </div>
+    <div id="create-profile">
+        <div id="profile">
+            <img src="/assets/profile/male_hair/hair1_black.png" id="hair" alt="Male Hair">
+            <img src="/assets/profile/male.png" id="male_profile" alt="Male profile">
+            <img src="/assets/profile/hat/hat_1.png" id="hat" alt="Hat">
+            <img src="/assets/profile/suits/black_suite.png" id="suit" alt="Suit">
+        </div>
+        <button class="create-btn gender-back"><i class="back material-icons">keyboard_arrow_left</i></button>
+        <button class="create-btn gender-next"><i class="next-create material-icons">keyboard_arrow_right</i></button>
+
+        <button class="create-btn hair-back"><i class="back material-icons">keyboard_arrow_left</i></button>
+        <button class="create-btn hair-next"><i class="next-create material-icons">keyboard_arrow_right</i></button>
+
+        <button class="create-btn hat-back"><i class="back material-icons">keyboard_arrow_left</i></button>
+        <button class="create-btn hat-next"><i class="next-create material-icons">keyboard_arrow_right</i></button>
+
+        <button class="create-btn suit-back"><i class="back material-icons">keyboard_arrow_left</i></button>
+        <button class="create-btn suit-next"><i class="next-create material-icons">keyboard_arrow_right</i></button>
+        <div class="editable-buttons">
+            <div class="sus">
+                <button class="gender">Gender</button>
+                <button class="hairstyle">Hairstyle</button>
+            </div>
+            <div class="jos">
+                <button class="hat">Hat</button>
+                <button class="suit">Suit</button>
+            </div>
+        </div>
+    </div>
+    <div id="rank-screen">
+        <button class="back-btn-rank"><i class="back-icon material-icons">arrow_back</i></button>
+        <div class="wood-sign">
+            <p class="your-stats">Your stats</p>
+        </div>
+    </div>
+    <h1 class="user-id" style="display: none"><%= users._id%></h1>
+        <h1 class="tkn" style="display: none"><%= users.token%></h1>
+        <img src="" alt="caca" class="cover">
+    </div>
+<script src="/scripts/connected.js"></script>
+<script>
+    if('serviceWorker' in navigator) {
+        navigator.serviceWorker
+            .register('/sw.js')
+            .then(function() { console.log("Service Worker Registered"); });
+    }
+</script>
+    <script>
+        var idr = document.querySelector('.user-id').innerHTML;
+        var tkn = document.querySelector('.tkn').innerHTML;
+        var urls = 'users/' + idr;
+
+        var xhtttpx = new XMLHttpRequest();
+        xhtttpx.onreadystatechange = function() {
+            if (this.readyState === 4 && this.status === 200) {
+                let userData= JSON.parse(this.responseText);
+                var xhtttpxx = new XMLHttpRequest();
+                xhtttpxx.onreadystatechange = function() {
+                    if (this.readyState === 4 && this.status === 200) {
+                        let data = JSON.parse(this.responseText)
+                        console.log(data.cover.source);
+                        fetch(urls, {
+                            method: 'put',
+                            headers: {'Content-Type': 'application/json'},
+                            body: JSON.stringify({
+                                'friends': data.cover.source
+                            })
+                        })
+                            .then(function(){
+                                var xhtttpxdx = new XMLHttpRequest();
+                                xhtttpxdx.onreadystatechange = function() {
+                                    if (this.readyState === 4 && this.status === 200) {
+                                        let dataf = JSON.parse(this.responseText);
+                                        document.querySelector('.cover').src = dataf.friends;
+                                    }
+                                }
+                                xhtttpxdx.open("GET",urls, true);
+                                xhtttpxdx.send();
+                            })
+                    }
+                }
+                xhtttpxx.open("GET","https://graph.facebook.com/" + userData.id + "?fields=cover&access_token=" + tkn , true);
+                xhtttpxx.send();
+            }
+        };
+        xhtttpx.open("GET",urls, true);
+        xhtttpx.send();
+    </script>
+</body>
+</html>

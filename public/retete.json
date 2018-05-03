@@ -1,0 +1,174 @@
+{
+  "retete": [
+    {
+      "ingrediente": ["Usturoi","Orez","Ulei","Rosii"," Ceapa","Supa de pui","Ierburi aroamtice","Patrunjel","Sare"],
+      "name": "Supa de rosii cu orez",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Peste alb","Pesmet","Cartofi fierti","Ulei","Ceapa","Condimente pentru chifetele","Ierburi armatice","Marar","Usturoi","Sare","Piper"],
+      "name": "Chiftele de peste",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Carne de miel","Suc de rosii","Ceapa verde","Usturoi verde","Ulei","Boia","Marar","Patrunjel","Ceapa","Sare","Piper"],
+      "name": "Stufat de miel",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Creveti","Ulei","Patrunjel","Zeama grepfruit","Zeama portocala","Zeama lamaie","Usturoi","Ghimbir","Ardei iute","Unt","Sare","Piper"],
+      "name": "Creveti in sos de citrice",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Pulpe de pui"," Ceapa","Orez","Mazare","Ulei","Ierburi aromatice","Curry","Patrunjel","Supa","Morcov","Ardei gras","Sare","Piper"],
+      "name": "Orez cu pui si legume",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Patrunjel","Bulgur fin","Menta","Ulei de masline","Rosii","Ceapa verde","Zeama de lamaie","Sare"],
+      "name": "Salata tabbouleh",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Mazare","Rosii cherry","Masline","Porumb","Oua","Castraveti murati","Ton","Capere","Salata verde"],
+      "name": "Salata cu ton",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Avocado","Rosii","Lamaie","Usturoi","Coriandru","Ceapa rosie"],
+      "name": "Guacamole",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Rosii","Branza telemea","Masline","Castraveti"," Ceapa","Ulei","Salata verde","Zeama de lamaie","Oregano","Sare"],
+      "name": "Salata greceasca",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Morcov","Carne de vita","Maioneza","Cartofi","Sare","Castraveti murati","Gogosari murati"],
+      "name": "Salata de boeuf",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Aripioare de pui","Faina","Lapte batut","Boia","Cimbru","Curry","Oregano","Ardei iuti","Sare","Piper"],
+      "name": "Aripioare picante",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Dovlecei","Carne de curcan","Ulei"," Ceapa","Bulion","Orez","Patrunjel","Marar","Cimbru","Foi de dafin","Boia","Sare","Piper"],
+      "name": "Dovlecei umpluti",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Ciuperci","Supa","Orez","Ulei","Ceapa","Parmezan","Unt","Patrunjel","Cimbru","Sare","Piper"],
+      "name": "Risotto cu ciuperci",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Tortilla","Piept de pui","Cascaval","Ardei gras","Ceapa","Patrunjel","Ulei","Boia","Usturoi","Oregano","Sare","Piper"],
+      "name": "Quesadilla cu pui",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Piept de pui","Susan","Amidon","Sos de soia","Oua","Mustar","Sare"],
+      "name": "Pui Shangai",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Pesmet","Unt","Ulei","Piept de pui","Oua","Usturoi","Patrunjel","Sare","Piper"],
+      "name": "Pui Kiev",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Suc de rosii","Carne tocata","Ulei","Vinete","Foi de dafin","Usturoi","Pasta de tomate","Morcov","Ceapa","Ardei gras","Patrunjel","Piper","Boia","Cimbru","Rozmarin","Rosii cherry","Sare"],
+      "name": "Vinete umplute",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Spaghete","Bacon","Parmezan","Oua","Ulei de masline","Galbenusuri","Sare","Piper"],
+      "name": "Spaghete carbonara",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Unt","Parmezan","Usturoi","Ulei","Piept de curcan","Mustar","Patrunjel","Rozmarin","Piper","Bacon","Lamaie","Sare"],
+      "name": "Rulada de curcan",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["File de somon","Ceapa verde","Ulei","Usturoi","Ardei iute","Ou","Mustar","Pesmet","Patrunjel","Salata verde","Rosie","Marar","Sare"],
+      "name": "Burger de somon",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Piept de pui","Smantana dulce","Cascaval","Masline","Oua","Ardei","Patrunjel","Crusta","Sare","Piper"],
+      "name": "Tarta cu pui",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Rosii","Ardei gras","Pui","Usturoi","Patrunjel","Leustean","Ulei","Sare","Piper"],
+      "name": "Saramura de pui",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Ceapa","Telina","Morcov","Pastarnac","Ardei gras","Carne de pui","Patrunjel","Foi de dafin","Boabe de piper","Sare"],
+      "name": "Supa de pui",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Ciuperci","Lapte","Smantana","Usturoi","Ceapa","Ulei","Unt","Marar","Supa","Cartof","Boia","Sare"],
+      "name": "Supa crema de ciuperci",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Faina alba","Lapte","Unt","Drojdie","Zahar","Galbenus","Coaja de lamaie"],
+      "name": "Gogosi pufoase",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Branza de vaci","Smantana","Dulceata","Pesmet","Unt","Faina","Gris","Zahar tos","Zahar vanilinat","Esenta lamaie","Ou","Sare"],
+      "name": "Papanasi fierti cu branza",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Carne de pui gatita","Lapte batut","Faina","Ou","Cascaval","Unt","Ceapa verde","Ardei copt","Masline","Praf de copt","Sare"],
+      "name": "Briose cu cascaval",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Ciuperci","Carne de pui","Ceapa","Rosie","Cascaval","Patrunjel","Ulei","Paprika","Curcuma","Curry","Sare"],
+      "name": "Ciuperci umplute",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Faina","Cascaval","Pesmet","Ou","Ierburi aromatice"],
+      "name": "Cascaval pane",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Nuca","Apa","Foi de placinta","Zahar","Unt","Ulei","Fistic","Zeama de lamaie","Pastaie de vanilie"],
+      "name": "Baclava turceasca",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Lapte","Faina","Unt","Praf de copt","Oua","Zahar","Vanilie","Sare"],
+      "name": "Gofre cu vanilie",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Faina integrala","Morcovi","Sirop de agave","Lapte","Oua","Stafide","Iaurt","Nuca","Ulei","Bicarbonat de sodiu","Scortisoara","Sare"],
+      "name": "Prajitura cu morcov",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Banane","Faina","Unt","Ciocolata","Zahar","Nuci","Praf de copt","Oua","Vanilie","Sare"],
+      "name": "Chec cu banane",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Ulei","Faina","Visine","Iaurt grecesc","Zahar","Praf de copt","Oua","Vanilie","Coaja lamaie","Sare"],
+      "name": "Prajitura cu visine",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Iaurt","Faina","Zahar vanilat","Oua","Vanilie","Praf de copt","Zahar pudra","Coaja lamaie","Sare"],
+      "name": "Gogosi cu iaurt",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Faina","Unt","Apa","Lapte","Zahar","Drojdie","Sare","Ou"],
+      "name": "Croissant cu unt",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Faina","Lapte","Unt","Zahar vanilat","Praf de copt","Oua","Compot de piersici","Sare"],
+      "name": "Pancakes cu piersici",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Prune","Faina","Lapte","Unt","Zahar","Praf de copt","Oua","Vanilie","Scortisoara","Sare"],
+      "name": "Prajitura cu prune",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Cartofi","Smantana","Cascaval","Usturoi","Piper alb","Cimbru","Sare"],
+      "name": "Cartofi gratinati",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Lapte","Unt","Faina","Carne de pui","Ulei","Foi de dafin","Smantana","Boabe de piper","Legume","Sare","Piper"],
+      "name": "Ciulama de pui",
+      "image": "/assets/recipes/supa.jpg"
+    }, {
+      "ingrediente": ["Piept de pui","Pesmet","Faina","Amidon de porumb","Ulei","Oua","Usturoi","Patrunjel","Boia","Oregano","Piper","Sare"],
+      "name": "Nuggets de pui",
+      "image": "/assets/recipes/supa.jpg"
+    },
+    {
+      "ingrediente": ["Carne tocata","Orez","Frunze de dafin","Ceapa","Ulei","Bulion","Varza","Piper","Sare","Marar","Cimbru"],
+      "name": "Sarmale",
+      "image": "/assets/recipes/supa.jpg"
+    }
+  ]
+}

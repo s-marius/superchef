@@ -1,0 +1,473 @@
+{
+  "retete": [
+    {
+      "ingrediente": ["Sausages", "Tomato Sauce", "Butter Beans", "Black Treacle", "English Mustard"],
+      "name": "Bean & Sausage Hotpot"
+    }, {
+      "ingrediente": ["Puff Pastry", "Egg White", "Egg Yolks", "Vegetable Oil", "Beef", "Lamb Kidney", "Onions", "Plain Flour", "Beef Stock", "Salt", "Pepper", "Worcestershire Sauce"],
+      "name": "Steak and Kidney Pie"
+    }, {
+      "ingrediente": ["Baby Aubergine", "Fennel", "Red Pepper", "Courgettes", "Onion", "Paella Rice", "Paprika", "Saffron", "White Wine", "Vegetable Stock", "Frozen Peas", "Lemon", "Parsley", "Salt", "Black Pepper"],
+      "name": "Roast fennel and aubergine paella"
+    }, {
+      "ingrediente": ["Butter", "Caster Sugar", "Self-Raising Flour", "Almonds", "Baking Powder", "Eggs", "Vanilla Extract", "Almond Extract", "Butter", "Caster Sugar", "Self-Raising Flour", "Almonds", "Baking Powder", "Eggs", "Vanilla Extract", "Almond Extract", "Pink Food Colouring", "Apricot", "Marzipan"],
+      "name": "Battenberg Cake"
+    }, {
+      "ingrediente": ["Sausages", "Bacon", "Mushrooms", "Tomatoes", "Black Pudding", "Eggs", "Bread"],
+      "name": "English Breakfast"
+    }, {
+      "ingrediente": ["Sausages", "Bacon", "Mushrooms", "Tomatoes", "Black Pudding", "Eggs", "Bread", "Baked Beans"],
+      "name": "Full English Breakfast"
+    }, {
+      "ingrediente": ["Macaroni", "Plain Flour", "Mustard Powder", "Garlic Powder", "Kosher Salt", "Black Pepper", "Cayenne Pepper", "Butter", "Whole Milk", "Heavy Cream", "Monterey Jack Cheese", "Butter", "Garlic Powder", "Bread", "Cheddar Cheese", "Colby Jack Cheese", "Butter"],
+      "name": "Grilled Mac and Cheese Sandwich"
+    }, {
+      "ingrediente": ["Plain Flour", "Butter", "Cream Cheese", "Icing Sugar", "Butter", "Maple Syrup", "Light Brown Soft Sugar", "Dark Brown Soft Sugar", "Eggs", "Vanilla Extract", "Pecan Nuts", "Dark Chocolate Chips"],
+      "name": "Choc Chip Pecan Pie"
+    }, {
+      "ingrediente": ["Vegetable Oil", "Minced Beef", "Onion", "Tomato Puree", "Plain Flour", "Mushrooms", "Beef Stock", "Worcestershire Sauce", "Shortcrust Pastry", "Egg Yolks"],
+      "name": "Minced Beef Pie"
+    }, {
+      "ingrediente": ["Potatoes", "Green Beans", "Sunflower Oil", "Garlic", "Thai Green Curry Paste", "Coconut Milk", "Thai Fish Sauce", "Sugar", "Chicken", "Lime", "Basil", "Rice"],
+      "name": "Thai Green Curry"
+    }, {
+      "ingrediente": ["Cumin", "Rapeseed Oil", "Red Onions", "Garlic Clove", "Green Chilli", "Red Pepper", "Nutmeg", "Coriander", "Lamb Mince", "Pepper", "Coriander", "Plain Flour", "Salt", "Milk", "Lard", "Egg Yolks"],
+      "name": "McSinghs Scotch pie"
+    }, {
+      "ingrediente": ["Clams", "Butter", "Bacon", "Onion", "Thyme", "Bay Leaf", "Plain Flour", "Milk", "Double Cream", "Potatoes", "Parsley"],
+      "name": "Clam chowder"
+    }, {
+      "ingrediente": ["Olive Oil", "Red Chili", "Thai Red Curry Paste", "Vegetable Stock Cube", "Coconut Milk", "Fish Sauce", "Rice Noodles", "Lime", "King Prawns", "Coriander"],
+      "name": "Laksa King Prawn Noodles"
+    }, {
+      "ingrediente": ["Butter", "Bacon", "Onion", "Garlic Clove", "Brussels Sprouts", "Potatoes"],
+      "name": " Bubble & Squeak"
+    }, {
+      "ingrediente": ["Olive Oil", "Onions", "Celery", "Carrots", "Potatoes", "Bay Leaf", "Tomato Puree", "Sugar", "White Vinegar", "Chopped Tomatoes", "Passata", "Vegetable Stock Cube", "Whole Milk"],
+      "name": "Creamy Tomato Soup"
+    }, {
+      "ingrediente": ["Butter", "Leek", "Salt", "Creme Fraiche", "Egg", "Egg Yolks", "Nutmeg", "Plain Flour", "Salt", "Butter", "Lard", "Cheddar Cheese", "Water"],
+      "name": "Flamiche"
+    }, {
+      "ingrediente": ["Macaroni", "Chicken Stock", "Heavy Cream", "Fajita Seasoning", "Salt", "Chicken Breast", "Olive Oil", "Onion", "Red Pepper", "Garlic", "Cheddar Cheese", "Parsley"],
+      "name": "Chicken Fajita Mac and Cheese"
+    }, {
+      "ingrediente": ["Butter", "Sour Cream", "Sugar", "Cream Cheese", "Caster Sugar", "Plain Flour", "Lemon Juice", "Eggs", "Sour Cream", "Sour Cream", "Caster Sugar", "Lemon Juice"],
+      "name": "New York cheesecake"
+    }, {
+      "ingrediente": ["Potatoes", "Fennel", "Garlic", "Milk", "Double Cream", "Butter", "Parmesan Cheese"],
+      "name": "Fennel Dauphinoise"
+    }, {
+      "ingrediente": ["Potatoes", "Olive Oil", "Eggs", "Red Wine Vinegar", "Capers", "Sunflower Oil", "Red Onions", "Spinach", "Tuna"],
+      "name": "Tuna Nicoise"
+    }, {
+      "ingrediente": ["Flour", "Sugar", "Baking Powder", "Salt", "Egg", "Milk", "Oil", "Oil", "Icing Sugar"],
+      "name": "Timbits"
+    }, {
+      "ingrediente": ["Pears", "Caster Sugar", "Butter", "Star Anise", "Cardamom", "Cinnamon", "Brandy", "Puff Pastry"],
+      "name": "Pear Tarte Tatin"
+    }, {
+      "ingrediente": ["Olive Oil", "Onion", "Garlic", "Carrot", "French Lentils", "Thyme", "Bay Leaf", "Salt", "Celery"],
+      "name": "French Lentils With Garlic and Thyme"
+    }, {
+      "ingrediente": ["Butter", "Olive Oil", "Onion", "Sugar", "Garlic Clove", "Plain Flour", "Dry White Wine", "Beef Stock", "Bread", "Gruyere"],
+      "name": "French Onion Soup"
+    }, {
+      "ingrediente": ["Self Raising Flour", "Coco Sugar", "Cacao", "Baking Powder", "Flax Eggs", "Almond Milk", "Vanilla", "Water"],
+      "name": "Vegan Chocolate Cake"
+    }, {
+      "ingrediente": ["Olive Oil", "Ginger", "Garlic", "Tomatoes", "Lemon Juice", "Caster Sugar", "Vine Leaves", "Fennel Bulb", "Lamb Mince", "Onion", "Potato", "Basmati Rice", "Chopped Parsley", "Coriander", "Lemon Juice", "Garlic", "Clove", "Cinnamon", "Tomatoes"],
+      "name": "Lamb tomato and sweet spices"
+    }, {
+      "ingrediente": ["Cajun", "Cayenne Pepper", "White Fish", "Vegetable Oil", "Flour Tortilla", "Avocado", "Little Gem Lettuce", "Spring Onion", "Salsa", "Sour Cream", "Lemon", "Garlic"],
+      "name": "Cajun spiced fish tacos"
+    }, {
+      "ingrediente": ["Banana", "Cacao", "Avocado", "Honey", "Lemon Juice", "Vanilla", "Water", "Sea Salt"],
+      "name": "Chocolate Avocado Mousse"
+    }, {
+      "ingrediente": ["Almonds", "Butter", "Muscovado Sugar", "Orange", "Apricot Jam", "Plain Flour", "Baking Powder", "Eggs", "Ground Almonds", "Milk", "Dried Fruit", "Glace Cherry", "Milk", "Caster Sugar"],
+      "name": "Dundee cake"
+    }, {
+      "ingrediente": ["Beef Brisket", "Salt", "Onion", "Garlic", "Thyme", "Rosemary", "Bay Leaves", "Beef Stock", "Carrots", "Mustard", "Potatoes"],
+      "name": "Beef Brisket Pot Roast"
+    }, {
+      "ingrediente": ["Digestive Biscuits", "Pretzels", "Butter", "Cream Cheese", "Vanilla Extract", "Icing Sugar", "Caramel", "Sea Salt", "Double Cream", "Caramel Sauce", "Toffee Popcorn", "Pretzels"],
+      "name": "Salted Caramel Cheescake"
+    }, {
+      "ingrediente": ["Butter", "Sugar", "Eggs", "Vanilla Extract", "Flour", "Baking Powder", "Milk", "Maple Syrup", "Brown Sugar", "Single Cream", "Butter"],
+      "name": "Pouding chomeur"
+    }, {
+      "ingrediente": ["Potatoes", "Butter", "Milk", "Minced Beef", "Onion", "Creamed Corn", "Paprika", "Parsley", "Salt", "Pepper"],
+      "name": "Pate Chinois"
+    }, {
+      "ingrediente": ["Plain Flour", "Caster Sugar", "Butter", "Braeburn Apples", "Butter", "Demerara Sugar", "Blackberrys", "Cinnamon", "Ice Cream"],
+      "name": "Apple & Blackberry Crumble"
+    }, {
+      "ingrediente": ["Chickpeas", "Olive Oil", "Paprika", "Tomatoes", "Red Onions", "Red Wine Vinegar", "Avocado", "Lime", "Lime", "Sour Cream", "Harissa Spice", "Corn Tortillas", "Coriander"],
+      "name": "Chickpea Fajitas"
+    }, {
+      "ingrediente": ["Chocolate Chips", "Heavy Cream", "Condensed Milk", "Vanilla Extract", "White Chocolate Chips", "Miniature Marshmallows"],
+      "name": "Hot Chocolate Fudge"
+    }, {
+      "ingrediente": ["Chicken Thighs", "Lime", "Spring Onions", "Ginger", "Garlic", "Onion", "Red Chilli", "Thyme", "Lime", "Soy Sauce", "Vegetable Oil", "Brown Sugar", "Allspice", "Basmati Rice", "Coconut Milk", "Spring Onions", "Thyme", "Garlic", "Allspice"],
+      "name": "Jerk chicken with rice & peas"
+    }, {
+      "ingrediente": ["Kale", "Bacon", "Garlic", "Onion", "Paprika", "Thyme", "Tomato", "Red Pepper", "Banana", "Vegetable Oil"],
+      "name": "Callaloo Jamaican Style"
+    }, {
+      "ingrediente": ["Potatoes", "Sunflower Oil", "Minced Pork", "Onion", "Garlic Clove", "Cinnamon", "Allspice", "Nutmeg", "Vegetable Stock", "Shortcrust Pastry", "Egg"],
+      "name": "Tourtiere"
+    }, {
+      "ingrediente": ["Olive Oil", "Duck Legs", "Onions", "Garlic", "Cinnamon", "Plain Flour", "Red Wine", "Chopped Tomatoes", "Chicken Stock Cube", "Rosemary", "Bay Leaves", "Sugar", "Milk", "Paccheri Pasta", "Parmesan Cheese"],
+      "name": "Venetian Duck Ragu"
+    }, {
+      "ingrediente": ["Clotted Cream", "Butter", "Corn Flour", "Parmesan Cheese", "Nutmeg", "Fettuccine", "Parsley"],
+      "name": "Fettucine alfredo"
+    }, {
+      "ingrediente": ["Olive Oil", "Bacon", "Shallots", "Chicken Legs", "Chicken Thighs", "Chicken Breasts", "Garlic", "Brandy", "Red Wine", "Chicken Stock", "Tomato Puree", "Thyme", "Rosemary", "Bay Leaves", "Parsley", "Chestnut Mushroom", "Plain Flour", "Butter"],
+      "name": "Coq au vin"
+    }, {
+      "ingrediente": ["Butter", "Bread", "Sultanas", "Cinnamon", "Milk", "Double Cream", "Eggs", "Sugar", "Nutmeg"],
+      "name": "Bread and Butter Pudding"
+    }, {
+      "ingrediente": ["Kidney Beans", "Carrots", "Spring Onions", "Thyme", "Onion", "Black Pepper", "Red Pepper", "Garlic Clove", "Allspice", "Beef", "Water", "Potatoes", "Plain Flour", "Water", "Coconut Milk"],
+      "name": "Red Peas Soup"
+    }, {
+      "ingrediente": ["Olive Oil", "Onion", "Chicken Breast", "Ginger", "Harissa Spice", "Dried Apricots", "Chickpeas", "Couscous", "Chicken Stock", "Coriander"],
+      "name": "Chicken Couscous"
+    }, {
+      "ingrediente": ["Eggs", "Olive Oil", "Courgettes", "Spring Onions", "Red Pepper", "Garlic Clove", "Red Chilli", "Cream Cheese", "Milk", "Chives", "Basil", "Rocket", "Parmesan"],
+      "name": "Provencal Omelette Cake"
+    }, {
+      "ingrediente": ["Toor Dal", "Water", "Salt", "Turmeric", "Ghee", "Chopped Tomatoes", "Cumin Seeds", "Mustard Seeds", "Bay Leaf", "Green Chili", "Ginger", "Cilantro", "Red Pepper", "Salt", "Sugar", "Garam Masala"],
+      "name": "Dal fry"
+    }, {
+      "ingrediente": ["Pork", "Rice Vermicelli", "Egg Rolls", "Challots", "Garlic", "Sugar", "Fish Sauce", "Soy Sauce", "Pepper", "Olive Oil", "Cucumber", "Mint", "Peanuts"],
+      "name": "Vietnamese Grilled Pork (bun-thit-nuong)"
+    }, {
+      "ingrediente": ["Vegetable Oil", "Beef Gravy", "Potatoes", "Cheese Curds"],
+      "name": "Poutine"
+    }, {
+      "ingrediente": ["Self-Raising Flour", "Salt", "Suet", "Currants", "Caster Sugar", "Lemon", "Orange", "Milk", "Custard"],
+      "name": "Spotted Dick"
+    }, {
+      "ingrediente": ["Peanuts", "Coconut Cream", "Massaman Curry Paste", "Beef", "Potatoes", "Onion", "Lime", "Cinnamon Stick", "Tamarind Paste", "Brown Sugar", "Fish Sauce", "Chilli", "Jasmine Rice"],
+      "name": "Massaman Beef curry"
+    }, {
+      "ingrediente": ["Aubergine", "Courgettes", "Yellow Pepper", "Tomato", "Olive Oil", "Basil", "Onion", "Garlic Clove", "Red Wine Vinegar", "Sugar"],
+      "name": "Ratatouille"
+    }, {
+      "ingrediente": ["Rapeseed Oil", "Onion", "Celery", "Leek", "Potatoes", "Butter", "Vegetable Stock", "Broccoli", "Stilton Cheese"],
+      "name": "Broccoli & Stilton soup"
+    }, {
+      "ingrediente": ["Olive Oil", "Mushrooms", "Chicken Legs", "Passata", "Chicken Stock Cube", "Black Olives", "Parsley"],
+      "name": "Chicken Marengo"
+    }, {
+      "ingrediente": ["Beef", "Broccoli", "Potatoes", "Carrots", "Plain Flour", "Eggs", "Milk", "Sunflower Oil"],
+      "name": "Beef Sunday Roast"
+    }, {
+      "ingrediente": ["Olive Oil", "Butter", "Beef", "Plain Flour", "Garlic", "Onions", "Celery", "Carrots", "Leek", "Swede", "Red Wine", "Beef Stock", "Bay Leaf", "Thyme", "Parsley", "Plain Flour", "Baking Powder", "Suet", "Water"],
+      "name": "Beef Dumpling Stew"
+    }, {
+      "ingrediente": ["Olive Oil", "Onions", "Garlic", "Butter", "Mushrooms", "Beef Fillet", "Plain Flour", "Creme Fraiche", "English Mustard", "Beef Stock", "Parsley"],
+      "name": "Beef stroganoff"
+    }, {
+      "ingrediente": ["Spaghetti", "Olive Oil", "Onion", "Garlic", "Red Chilli", "Tomato Puree", "Pilchards", "Black Olives", "Parmesan"],
+      "name": "Pilchard puttanesca"
+    }, {
+      "ingrediente": ["Eggs", "Butter", "Parmesan", "Tarragon", "Parsley", "Chives", "Gruyere"],
+      "name": "French Omelette"
+    }, {
+      "ingrediente": ["Shortcrust Pastry", "Eggs", "Muscovado Sugar", "Raisins", "Vanilla Extract", "Butter", "Single Cream", "Walnuts"],
+      "name": "Canadian Butter Tarts"
+    }, {
+      "ingrediente": ["Strawberries", "Blackberries", "Redcurrants", "Raspberries", "Caster Sugar", "Bread"],
+      "name": "Summer Pudding"
+    }, {
+      "ingrediente": ["Butter", "Parmesan", "Milk", "Bay Leaves", "Plain Flour", "English Mustard", "Cayenne Pepper", "Gruyere", "Eggs", "Goats Cheese", "Double Cream", "Spinach"],
+      "name": "Three-cheese souffles"
+    }, {
+      "ingrediente": ["Floury Potatoes", "Olive Oil", "Semi-Skimmed Milk", "White Fish Fillets", "Plain Flour", "Nutmeg", "Double Cream", "Jerusalem Artichokes", "Leek", "Prawns", "Parsley", "Dill", "Lemon", "Gruyere", "Lemon"],
+      "name": "Fish pie"
+    }, {
+      "ingrediente": ["Small Potatoes", "Harissa Spice", "Olive Oil", "Lemon", "Spring Onions", "Rocket", "Feta", "Mint", "Pine Nuts", "Salt", "Pepper"],
+      "name": "Spicy North African Potato Salad"
+    }, {
+      "ingrediente": ["Chicken Thigh", "Ginger", "Garlic", "Soy Sauce", "Sake", "Granulated Sugar", "Potato Starch", "Vegetable Oil", "Lemon"],
+      "name": "Chicken Karaage"
+    }, {
+      "ingrediente": ["Onion", "Sunflower Oil", "Garlic", "Ginger", "Madras Paste", "Paprika", "Cinnamon Stick", "Cardamom", "Clove", "Bay Leaf", "Tomato Puree", "Lamb", "Greek Yogurt", "Coriander"],
+      "name": "Lamb Rogan josh"
+    }, {
+      "ingrediente": ["Chicken", "Onion", "Tomatoes", "Garlic", "Ginger Paste", "Vegetable Oil", "Cumin Seeds", "Coriander Seeds", "Turmeric Powder", "Chilli Powder", "Green Chilli", "Yogurt", "Cream", "Fenugreek", "Garam Masala", "Salt"],
+      "name": "Chicken Handi"
+    }, {
+      "ingrediente": ["Chicken", "Butter", "Olive Oil", "Red Onions", "Red Pepper", "Chorizo", "Sun-Dried Tomatoes", "Garlic", "Basmati Rice", "Tomato Puree", "Paprika", "Bay Leaves", "Thyme", "Chicken Stock", "Dry White Wine", "Lemons", "Black Olives", "Salt", "Pepper"],
+      "name": "Chicken Basquaise"
+    }, {
+      "ingrediente": ["Olive Oil", "Bacon", "Onion", "Celery", "Carrots", "Garlic", "Minced Beef", "Tomato Puree", "Chopped Tomatoes", "Honey", "Lasagne Sheets", "Creme Fraiche", "Mozzarella Balls", "Parmesan Cheese", "Basil Leaves"],
+      "name": "Lasagne"
+    }, {
+      "ingrediente": ["Olive Oil", "Egg Plants", "Harissa", "Chickpeas", "Cherry Tomatoes", "Greek Yogurt", "Ground Cumin", "Parsley"],
+      "name": "Stovetop Eggplant With Harissa, Chickpeas, and Cumin Yogurt"
+    }, {
+      "ingrediente": ["Sausages", "Vegetable Oil", "Plain Flour", "Eggs", "Horseradish", "Milk", "Cherry Tomatoes"],
+      "name": "Toad In The Hole"
+    }, {
+      "ingrediente": ["Veal", "Flour", "Olive Oil", "Butter", "Onion", "Carrot", "Celery", "Fennel", "Garlic", "Orange Zest", "Marjoram", "Bay Leaf", "Dry White Wine", "Chicken Stock", "Tomatoes", "Parsley", "Garlic", "Lemon Zest"],
+      "name": "Osso Buco alla Milanese"
+    }, {
+      "ingrediente": ["Brown Sugar", "Butter", "Eggs", "Vanilla Extract", "Salt", "Plain Flour", "Milk"],
+      "name": "Sugar Pie"
+    }, {
+      "ingrediente": ["Sea Salt", "Bay Leaf", "Garlic", "Thyme", "Duck Legs", "White Wine"],
+      "name": "Duck Confit"
+    }, {
+      "ingrediente": ["Olive Oil", "Carrots", "Celery", "Onion", "Garlic", "Brown Lentils", "Bay Leaves", "Water", "Salt", "Apple Cider Vinegar", "Pepper", "Egg Plants", "Rosemary", "Pine Nuts", "Parsley"],
+      "name": "Roasted Eggplant"
+    }, {
+      "ingrediente": ["Chicken Breast", "Plain Flour", "Egg", "Breadcrumbs", "Vegetable Oil", "Sunflower Oil", "Onions", "Garlic", "Carrot", "Plain Flour", "Curry Powder", "Chicken Stock", "Honey", "Soy Sauce", "Bay Leaf", "Garam Masala"],
+      "name": "Katsu Chicken curry"
+    }, {
+      "ingrediente": ["Beef", "Onions", "Garlic", "Olive Oil", "Chorizo", "Cumin", "All Spice", "Cloves", "Cinnamon Stick", "Bay Leaves", "Oregano", "Ancho Chillies", "Balsamic Vinegar", "Plum Tomatoes", "Tomato Ketchup", "Dark Brown Sugar", "Borlotti Beans"],
+      "name": "Braised Beef Chilli"
+    }, {
+      "ingrediente": ["Olive Oil", "Onion", "Garlic", "Worcestershire Sauce", "Tomato Puree", "Turkey Mince", "Eggs", "Breadcrumbs", "Barbeque Sauce", "Cannellini Beans", "Parsley"],
+      "name": "Turkey Meatloaf"
+    }, {
+      "ingrediente": ["Sunflower Oil", "Paneer", "Ginger", "Cumin", "Turmeric", "Coriander", "Green Chilli", "Tomato", "Peas", "Garam Masala", "Coriander", "Naan Bread"],
+      "name": "Matar Paneer"
+    }, {
+      "ingrediente": ["Chicken", "Tomato", "Onions", "Garlic Clove", "Red Pepper", "Carrots", "Lime", "Thyme", "Allspice", "Soy Sauce", "Cornstarch", "Coconut Milk", "Vegetable Oil"],
+      "name": "Brown Stew Chicken"
+    }, {
+      "ingrediente": ["Rapeseed Oil", "Onion", "Garlic", "Paprika", "Cumin", "Thyme", "Carrots", "Celery", "Red Pepper", "Yellow Pepper", "Tomato", "Vegetable Stock Cube", "Courgettes", "Thyme", "Lentils"],
+      "name": "Vegetarian Casserole"
+    }, {
+      "ingrediente": ["Butter", "Egg", "Milk", "Golden Syrup", "Black Treacle", "Brown Sugar", "Oatmeal", "Self-Raising Flour", "Ground Ginger"],
+      "name": "Parkin Cake"
+    }, {
+      "ingrediente": ["White Flour", "Salt", "Yeast", "Milk", "Butter", "Eggs", "Vegetable Oil", "Butter", "Brown Sugar", "Cinnamon", "Dried Fruit", "Milk", "Caster Sugar"],
+      "name": "Chelsea Buns"
+    }, {
+      "ingrediente": ["Single Cream", "Caster Sugar", "Dark Chocolate", "Butter", "Butter", "Caster Sugar", "Dark Chocolate", "Double Cream", "Egg Yolks", "Egg White", "Double Cream", "Icing Sugar"],
+      "name": "Chocolate Souffle"
+    }, {
+      "ingrediente": ["Custard", "Caster Sugar", "Cocoa", "Egg", "Digestive Biscuits", "Desiccated Coconut", "Almonds", "Butter", "Double Cream", "Custard Powder", "Icing Sugar", "Dark Chocolate", "Butter"],
+      "name": "Nanaimo Bars"
+    }, {
+      "ingrediente": ["Prawns", "Olive Oil", "Dry White Wine", "Fish Stock", "Fennel", "Onion", "Garlic", "Potatoes", "Orange", "Star Anise", "Bay Leaf", "Harissa Spice", "Tomato Puree", "Chopped Tomatoes", "Mussels", "White Fish", "Thyme", "Bread"],
+      "name": "Fish Stew with Rouille"
+    }, {
+      "ingrediente": ["Miniature Marshmallows", "Chocolate Chips", "Peanut Butter", "Vanilla Extract", "Peanuts"],
+      "name": "Rocky Road Fudge"
+    }, {
+      "ingrediente": ["Butter", "Onion", "Mushrooms", "Plain Flour", "Chicken Stock Cube", "Nutmeg", "Mustard Powder", "Chicken", "Sweetcorn", "Potatoes", "Butter"],
+      "name": "Chicken & mushroom Hotpot"
+    }, {
+      "ingrediente": ["Pumpkin", "Shortcrust Pastry", "Plain Flour", "Caster Sugar", "Salt", "Nutmeg", "Cinnamon", "Eggs", "Butter", "Milk", "Icing Sugar"],
+      "name": "Pumpkin Pie"
+    }, {
+      "ingrediente": ["Puff Pastry", "Plain Flour", "Braeburn Apples", "Caster Sugar", "Butter", "Creme Fraiche"],
+      "name": "Tarte Tatin"
+    }, {
+      "ingrediente": ["Medjool Dates", "Water", "Vanilla Extract", "Self-Raising Flour", "Bicarbonate Of Soda", "Eggs", "Butter", "Demerara Sugar", "Black Treacle", "Milk", "Ice Cream", "Muscovado Sugar", "Butter", "Double Cream", "Black Treacle"],
+      "name": "Sticky Toffee Pudding Ultimate"
+    }, {
+      "ingrediente": ["Mackerel", "Red Chili", "Ginger", "Garlic", "Pepper", "Cumin", "Turmeric", "Cinnamon Stick", "Clove", "Cardamom", "Sugar", "Tamarind Ball", "Vinegar", "Oil"],
+      "name": "Recheado Masala Fish"
+    }, {
+      "ingrediente": ["Butter", "Caster Sugar", "Eggs", "Self-Raising Flour", "Milk", "Lemon", "Mixed Peel"],
+      "name": "Madeira Cake"
+    }, {
+      "ingrediente": ["Tahini", "Lemon", "Olive Oil", "Red Onions", "Garlic", "Yellow Pepper", "Green Beans", "Courgettes", "Kale", "Lentils"],
+      "name": "Tahini Lentils"
+    }, {
+      "ingrediente": ["Double Cream", "White Chocolate Chips", "Vanilla", "Egg Yolks", "Caster Sugar", "Caster Sugar"],
+      "name": "White chocolate creme brulee"
+    }, {
+      "ingrediente": ["Beef", "Plain Flour", "Rapeseed Oil", "Red Wine", "Beef Stock", "Onion", "Carrots", "Thyme", "Mustard", "Egg Yolks", "Puff Pastry", "Green Beans", "Butter", "Salt", "Pepper"],
+      "name": "Beef and Mustard Pie"
+    }, {
+      "ingrediente": ["Potatoes", "Butter", "Milk", "Gruyere", "Butter", "Leek", "Plain Flour", "White Wine", "Milk", "Parsley", "Salmon", "Haddock", "Smoked Haddock", "Eggs"],
+      "name": "Three Fish Pie"
+    }, {
+      "ingrediente": ["Chicken", "Oil", "Egg White", "Flour", "Brown Sugar", "Salt", "Paprika", "Onion Salt", "Chili Powder", "Black Pepper", "Celery Salt", "Sage", "Garlic Powder", "Allspice", "Oregano", "Basil", "Marjoram"],
+      "name": "Kentucky Fried Chicken"
+    }, {
+      "ingrediente": ["Dark Chocolate", "Milk Chocolate", "Salted Butter", "Light Brown Soft Sugar", "Eggs", "Plain Flour", "Cocoa", "Raspberries"],
+      "name": "Chocolate Raspberry Brownies"
+    }, {
+      "ingrediente": ["Red Chilli", "Ginger", "Garlic", "Coriander", "Sunflower Oil", "Chicken Breasts", "Peanut Butter", "Chicken Stock", "Greek Yogurt"],
+      "name": "Nutty Chicken Curry"
+    }, {
+      "ingrediente": ["Digestive Biscuits", "Butter", "Condensed Milk", "Egg Yolks", "Lime", "Double Cream", "Icing Sugar", "Lime"],
+      "name": "Key Lime Pie"
+    }, {
+      "ingrediente": ["Chicken Stock", "Chicken Breast", "Butter", "Leek", "Garlic", "Plain Flour", "Milk", "White Wine", "Double Cream", "Ham", "Sea Salt", "Pepper", "Plain Flour", "Butter", "Free-Range Egg, Beaten", "Cold Water", "Free-Range Egg, Beaten"],
+      "name": "Chicken Ham and Leek Pie"
+    }, {
+      "ingrediente": ["Linguine Pasta", "Sugar Snap Peas", "Olive Oil", "Garlic Clove", "Red Chilli", "King Prawns", "Cherry Tomatoes", "Basil Leaves", "Lettuce", "Bread", "Fromage Frais", "Lime", "Caster Sugar"],
+      "name": "Chilli prawn linguine"
+    }, {
+      "ingrediente": ["Butter", "Onion", "Rice", "White Wine", "Vegetable Stock", "Lemon", "King Prawns", "Salmon", "Asparagus", "Black Pepper", "Parmesan"],
+      "name": "Salmon Prawn Risotto"
+    }, {
+      "ingrediente": ["Smoked Haddock", "Bay Leaves", "Milk", "Eggs", "Parsley", "Coriander", "Vegetable Oil", "Onion", "Coriander", "Curry Powder", "Rice"],
+      "name": "Kedgeree"
+    }, {
+      "ingrediente": ["Onions", "Thyme", "Olive Oil", "Potatoes", "Vegetable Stock"],
+      "name": "Boulangere Potatoes"
+    }, {
+      "ingrediente": ["Vegetable Oil", "Onion", "Garlic", "Ginger", "Coriander", "Cumin", "Paprika", "Garam Masala", "Chopped Tomatoes", "Kidney Beans", "Basmati Rice"],
+      "name": "Kidney Bean Curry"
+    }, {
+      "ingrediente": ["Salt Cod", "Ackee", "Onion", "Paprika", "Curry Powder", "Jerusalem Artichokes", "Hotsauce", "Red Pepper", "Yellow Pepper", "Tomatoes", "Salt", "Pepper", "Self-Raising Flour", "Suet", "Salt", "Olive Oil"],
+      "name": "Saltfish and Ackee"
+    }, {
+      "ingrediente": ["Oxtail", "Onion", "Spring Onions", "Garlic", "Ginger", "Scotch Bonnet", "Soy Sauce", "Fresh Thyme", "Vegetable Oil", "Water", "Broad Beans", "Corn Flour", "Water"],
+      "name": "Oxtail with broad beans"
+    }, {
+      "ingrediente": ["Rapeseed Oil", "Leek", "Courgettes", "Vegetable Stock", "Cannellini Beans", "Green Beans", "Tomatoes", "Garlic Clove", "Basil", "Parmesan"],
+      "name": "Summer Pistou"
+    }, {
+      "ingrediente": ["Chicken Breasts", "Vinaigrette Dressing", "Cumin", "Smoked Paprika", "Garlic", "Refried Beans", "Hard Taco Shells", "Shredded Mexican Cheese", "Grape Tomatoes", "Jalapeno", "Avocado", "Green Salsa", "Sour Cream", "Milk"],
+      "name": "Crock Pot Chicken Baked Tacos"
+    }, {
+      "ingrediente": ["Self-Raising Flour", "Caster Sugar", "Baking Powder", "Butter", "Dried Fruit", "Eggs", "Milk", "Vanilla Extract"],
+      "name": "Rock Cakes"
+    }, {
+      "ingrediente": ["Olive Oil", "Onion", "Carrot", "Celery", "Garlic", "Cannellini Beans", "Canned Tomatoes", "Water", "Rosemary", "Thyme", "Kale", "Wholegrain Bread", "Red Onion", "Parmesan"],
+      "name": "Ribollita"
+    }, {
+      "ingrediente": ["Hazlenuts", "Butter", "Caster Sugar", "Lemon", "Plain Flour", "Baking Powder", "Blackberrys", "Sugar", "Caster Sugar", "Lemon Juice", "Double Cream", "Yogurt", "Mint"],
+      "name": "Blackberry Fool"
+    }, {
+      "ingrediente": ["Goose Fat", "Beef Shin", "Bacon", "Challots", "Chestnut Mushroom", "Garlic Clove", "Bouquet Garni", "Tomato Puree", "Red Wine", "Celeriac", "Olive Oil", "Thyme", "Rosemary", "Bay Leaf", "Cardamom"],
+      "name": "Beef Bourguignon"
+    }, {
+      "ingrediente": ["Ham", "Peas", "Onions", "Carrots", "Bay Leaves", "Celery", "Frozen Peas", "Bread"],
+      "name": "Split Pea Soup"
+    }, {
+      "ingrediente": ["Lemons", "Paprika", "Red Onions", "Chicken Thighs", "Vegetable Oil", "Greek Yogurt", "Ginger", "Garlic Clove", "Garam Masala", "Ground Cumin", "Chilli Powder", "Turmeric"],
+      "name": "Tandoori chicken"
+    }, {
+      "ingrediente": ["Butter", "Peanut Cookies", "Gelatine Leafs", "Ricotta", "Peanut Butter", "Golden Syrup", "Milk", "Double Cream", "Light Brown Soft Sugar", "Peanut Brittle"],
+      "name": "Peanut Butter Cheesecake"
+    }, {
+      "ingrediente": ["Butter", "Muscovado Sugar", "Eggs", "Self-Raising Flour", "Baking Powder", "Bicarbonate Of Soda", "Black Treacle", "Milk", "Double Cream", "Butter", "Muscovado Sugar", "Black Treacle", "Double Cream", "Vanilla Extract"],
+      "name": "Sticky Toffee Pudding"
+    }, {
+      "ingrediente": ["Mushrooms", "Chestnuts", "Challots", "Garlic", "Rosemary", "Wild Mushrooms", "Soy Sauce", "White Wine", "Lasagne Sheets", "Breadcrumbs", "Sage", "Truffle Oil"],
+      "name": "Mushroom & Chestnut Rotolo"
+    }, {
+      "ingrediente": ["Butter", "Onions", "Chicken Stock", "Chicken Breast", "Potatoes", "Salt", "Black Pepper"],
+      "name": "Rappie Pie"
+    }, {
+      "ingrediente": ["Beef", "Olive Oil", "Shallots", "Garlic", "Bacon", "Thyme", "Bay Leaf", "Stout", "Beef Stock", "Corn Flour", "Oysters", "Plain Flour", "Salt", "Butter", "Eggs"],
+      "name": "Beef and Oyster pie"
+    }, {
+      "ingrediente": ["Udon Noodles", "Sesame Seed Oil", "Onion", "Cabbage", "Shiitake Mushrooms", "Spring Onions", "Mirin", "Soy Sauce", "Caster Sugar", "Worcestershire Sauce"],
+      "name": "Yaki Udon"
+    }, {
+      "ingrediente": ["Onion", "Olive Oil", "Butter", "Potatoes", "Garlic", "Eggs", "Parsley", "Baguette", "Vine Tomatoes", "Olive Oil"],
+      "name": "Spanish Tortilla"
+    }, {
+      "ingrediente": ["Butternut Squash", "Garlic", "Olive Oil", "Linguine Pasta", "Sage"],
+      "name": "Squash linguine"
+    }, {
+      "ingrediente": ["Salted Butter", "Dark Soft Brown Sugar", "Golden Syrup", "Orange", "Rolled Oats", "Christmas Pudding"],
+      "name": "Christmas Pudding Flapjack"
+    }, {
+      "ingrediente": ["Butter", "Lamb", "Lamb Kidney", "Onions", "Carrots", "Plain Flour", "Worcestershire Sauce", "Chicken Stock", "Bay Leaves", "Potatoes"],
+      "name": "Lancashire hotpot"
+    }, {
+      "ingrediente": ["Mussels", "Prawns", "Saffron", "Vermicelli", "Olive Oil", "Onions", "Garlic", "Paprika", "Monkfish", "Baby Squid", "Fish Stock", "Tomatoes", "Lemon", "Parsley"],
+      "name": "Seafood fideua"
+    }, {
+      "ingrediente": ["Roasted Vegetables", "Kidney Beans", "Chopped Tomatoes", "Mixed Grain"],
+      "name": "Vegetarian Chilli"
+    }, {
+      "ingrediente": ["Water", "Yeast", "Sugar", "Milk", "Butter", "Eggs", "Salt", "Flour", "Oil", "Lemon", "Sugar", "Cinnamon"],
+      "name": "BeaverTails"
+    }, {
+      "ingrediente": ["Plain Flour", "Salt", "Curry Powder", "Butter", "Water", "Minced Beef", "Allspice", "Black Pepper", "Vegetable Oil", "Onions", "Red Pepper", "Garlic", "Thyme", "Salt", "Tomato Ketchup", "Water", "Onions", "Egg", "Water"],
+      "name": "Jamaican Beef Patties"
+    }, {
+      "ingrediente": ["Beef Brisket", "Salt", "Black Pepper", "Coriander", "Sugar", "Bay Leaf", "Cloves", "Black Pepper", "Coriander", "Paprika", "Garlic", "Onion", "Dill", "English Mustard", "Celery Salt", "Red Pepper Flakes"],
+      "name": "Montreal Smoked Meat"
+    }, {
+      "ingrediente": ["Red Snapper", "Vegetable Oil", "Garlic", "Ginger", "Thyme", "Bay Leaf", "Red Pepper", "Yellow Pepper", "Onion", "Carrots", "Sugar", "Allspice", "Worcestershire Sauce", "Scotch Bonnet", "Lime", "Malt Vinegar", "Pepper"],
+      "name": "Escovitch Fish"
+    }, {
+      "ingrediente": ["Potatoes", "Butter", "Double Cream", "Egg Yolks", "Butter", "Shallots", "Carrots", "Celery", "Garlic Clove", "White Wine", "Tomato Puree", "Tinned Tomatos", "Chicken Stock", "Chicken", "Black Olives", "Parsley", "Gruyere Cheese"],
+      "name": "Chicken Parmentier"
+    }, {
+      "ingrediente": ["Lamb Shoulder", "Flour", "Vegetable Oil", "Onion", "Carrots", "Vegetable Stock", "Potatoes", "Shortcrust Pastry", "Eggs"],
+      "name": "Lamb and Potato pie"
+    }, {
+      "ingrediente": ["Butter", "Self-Raising Flour", "Vanilla", "Suet", "Milk", "Raspberry Jam", "Custard"],
+      "name": "Jam Roly-Poly"
+    }, {
+      "ingrediente": ["Flour", "Eggs", "Milk", "Sunflower Oil", "Sugar", "Raspberries", "Blueberries"],
+      "name": "Pancakes"
+    }, {
+      "ingrediente": ["Mushrooms", "English Mustard", "Olive Oil", "Beef Fillet", "Parma Ham", "Puff Pastry", "Flour", "Egg Yolks"],
+      "name": "Beef Wellington"
+    }, {
+      "ingrediente": ["Strawberries", "Double Cream", "Meringue Nests", "Ginger Cordial", "Mint"],
+      "name": "Eton Mess"
+    }, {
+      "ingrediente": ["Puff Pastry", "Dark Brown Soft Sugar", "Braeburn Apples", "Red Wine Jelly", "Creme Fraiche", "Icing Sugar", "Cardamom"],
+      "name": "Chinon Apple Tarts"
+    }, {
+      "ingrediente": ["Olive Oil", "Onion", "Leek", "Garlic", "Cumin", "Coriander", "Smoked Paprika", "Cinnamon", "Chili Powder", "Cocoa", "Dried Oregano", "Diced Tomatoes", "Water", "Carrots", "Brown Lentils", "Sea Salt", "Squash", "Cashews", "Apple Cider Vinegar"],
+      "name": "Smoky Lentil Chili with Squash"
+    }, {
+      "ingrediente": ["Goose Fat", "Pork", "Onion", "Garlic", "Carrots", "Fennel Seeds", "Red Wine Vinegar", "Vegetable Stock", "Tomato Puree", "Rosemary", "Parsley", "Haricot Beans", "Breadcrumbs", "Oil", "Bread", "Broccoli"],
+      "name": "Pork Cassoulet"
+    }, {
+      "ingrediente": ["Butter", "Olive Oil", "Chicken", "Salt", "Squash", "Broccoli", "Mushrooms", "Pepper", "Onion", "Garlic", "Red Pepper Flakes", "White Wine", "Milk", "Heavy Cream", "Parmesan Cheese", "Bowtie Pasta", "Salt", "Pepper", "Parsley"],
+      "name": "Chicken Alfredo Primavera"
+    }, {
+      "ingrediente": ["Canola Oil", "Beef Fillet", "Beef Stock", "Butter", "Garlic", "Challots", "Mushrooms", "Brandy", "Heavy Cream", "Dijon Mustard", "Worcestershire Sauce", "Tabasco Sauce", "Parsley", "Chives", "Salt", "Pepper"],
+      "name": "Steak Diane"
+    }, {
+      "ingrediente": ["Olive Oil", "Garlic", "Caster Sugar", "Red Wine Vinegar", "Chopped Tomatoes", "Basil Leaves", "Mascarpone", "Milk", "Parmesan", "Mozzarella", "Spinach", "Parmesan", "Ricotta", "Nutmeg", "Cannellini Beans"],
+      "name": "Spinach & Ricotta Cannelloni"
+    }, {
+      "ingrediente": ["Butter", "Plain Flour", "Lemon", "Butter", "Currants", "Mixed Peel", "Muscovado Sugar", "Cinnamon", "Ginger", "Allspice", "Lemon", "Eggs", "Sugar"],
+      "name": "Eccles Cakes"
+    }, {
+      "ingrediente": ["Plain Flour", "Caster Sugar", "Yeast", "Milk", "Eggs", "Eggs", "Butter", "Brie", "Prosciutto"],
+      "name": "Brie wrapped in prosciutto & brioche"
+    }, {
+      "ingrediente": ["Cashew Nuts", "Khus Khus", "Cumin Seeds", "Onions", "Ginger Garlic Paste", "Garlic", "Mint", "Cilantro", "Saffron", "Ghee", "Basmati Rice", "Full Fat Yogurt", "Cumin Seeds", "Bay Leaf", "Cinnamon", "Cloves", "Cardamom", "Lamb", "Red Chilli Powder"],
+      "name": "Lamb Biryani"
+    }, {
+      "ingrediente": ["Olive Oil", "Onion", "Carrots", "Lamb Leg", "Garlic", "Cumin", "Ginger", "Saffron", "Cinnamon", "Honey", "Apricot", "Vegetable Stock Cube", "Butternut Squash", "Couscous", "Parsley"],
+      "name": "Lamb Tagine"
+    }, {
+      "ingrediente": ["Banana", "Eggs", "Baking Powder", "Vanilla Extract", "Oil", "Pecan Nuts", "Raspberries"],
+      "name": "Banana Pancakes"
+    }, {
+      "ingrediente": ["Tiger Prawns", "Olive Oil", "Onion", "Fennel", "Carrots", "Dry White Wine", "Brandy", "Chopped Tomatoes", "Fish Stock", "Paprika", "Double Cream", "Prawns"],
+      "name": "Prawn & Fennel Bisque"
+    }, {
+      "ingrediente": ["Vegetable Oil", "Plain Flour", "Bicarbonate Of Soda", "Sugar", "Eggs", "Salt", "Cinnamon", "Carrots", "Walnuts", "Cream Cheese", "Caster Sugar", "Butter"],
+      "name": "Carrot Cake"
+    }, {
+      "ingrediente": ["Olive Oil", "Italian Fennel Sausages", "Onion", "Fennel Bulb", "Smoky Paprika", "Garlic", "Fennel Seeds", "Red Wine", "Chopped Tomatoes", "Caster Sugar", "Pitted Black Olives", "Rigatoni", "Pecorino", "Anchovy Fillet", "Garlic", "Olive Oil", "Basil Leaves"],
+      "name": "Rigatoni with fennel sausage sauce"
+    }, {
+      "ingrediente": ["Aubergine", "Onion", "Tomatoes", "Garlic", "Green Chili", "Red Chili Powder", "Oil", "Coriander Leaves", "Salt"],
+      "name": "Baingan Bharta"
+    }, {
+      "ingrediente": ["Plain Flour", "Butter", "Golden Syrup", "Breadcrumbs", "Lemons", "Eggs"],
+      "name": "Treacle Tart"
+    }, {
+      "ingrediente": ["Corn Flour", "Orange", "Orange", "Caster Sugar", "Peaches", "Blueberries", "Self-Raising Flour", "Butter", "Muscovado Sugar", "Cinnamon", "Milk"],
+      "name": "Peach & Blueberry Grunt"
+    }
+  ]
+}
