@@ -39,8 +39,4 @@ app.use(function(err,req,res,next){
 
 const port = process.env.port || 3000;
 
-https.createServer(httpsOptions, app)
-    .listen(port, function(err){
-        if(err) return console.log(err);
-        console.log('listening on  port ' + port);
-});
+app.listen(port, () => console.log('Example app listening on port 3000!'))
