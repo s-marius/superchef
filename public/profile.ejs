@@ -14,11 +14,19 @@
 
 <body>
 <div class="background">
+
+    <!--<div id="buy-screen">-->
+        <!--<div id="buy-alert">-->
+            <!--<div id="option-one">-->
+                <!--<button id="one-hundred">100</button>-->
+            <!--</div>-->
+            <!--<div id="option-two"></div>-->
+            <!--<div id="option-three"></div>-->
+        <!--</div>-->
+    <!--</div>-->
+
     <br><br><br><br><br><br><br>
     <div id="canvas-container"></div>
-    <!-- <button class="login" onclick="login()">
-      <svg xmlns="http://www.w3.org/2000/svg" class="svg" width="20" height="20"  viewBox="0 0 24 24"><path fill="#fff" d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/></svg>
-      <span>Login</span></button> -->
     <audio loop id="title-sound">
         <source src="/assets/sounds/title.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
@@ -28,11 +36,6 @@
         Your browser does not support the audio element.
     </audio>
     <div id="welcome-screen">
-        <div id="buy-alert">
-            <button class="buy little">Buy 120 cookies</button>
-            <button class="buy" id="big">Buy 500 cookies</button>
-            <button class="buy" id="insane>Buy 1000 cookies</button>
-        </div>
         <canvas id="pizza"></canvas>
         <p class="pls-wait"><span>P</span><span>L</span><span>E</span><span>A</span><span>S</span><span>E</span><span> </span><span>W</span><span>A</span><span>I</span><span>T</span></p>
         <img src="/assets/scene/big-logo.png" alt="Super Chef" id="logo">
@@ -203,14 +206,20 @@
     </div>
     <div id="rank-screen">
         <button class="back-btn-rank"><i class="back-icon material-icons">arrow_back</i></button>
-        <div class="wood-sign">
-            <p class="your-stats">Your stats</p>
-        </div>
     </div>
     <h1 class="user-id" style="display: none"><%= users._id%></h1>
         <h1 class="tkn" style="display: none"><%= users.token%></h1>
-        <img src="" alt="caca" class="cover">
-    </div>
+        <!--<img src="" alt="caca" class="cover"> -->
+ </div>
+
+
+
+
+
+
+
+
+
 <script src="/scripts/connected.js"></script>
 <script>
     if('serviceWorker' in navigator) {
@@ -219,46 +228,46 @@
             .then(function() { console.log("Service Worker Registered"); });
     }
 </script>
-    <script>
-        var idr = document.querySelector('.user-id').innerHTML;
-        var tkn = document.querySelector('.tkn').innerHTML;
-        var urls = 'users/' + idr;
+    <!--<script>-->
+        <!--var idr = document.querySelector('.user-id').innerHTML;-->
+        <!--var tkn = document.querySelector('.tkn').innerHTML;-->
+        <!--var urls = 'users/' + idr;-->
 
-        var xhtttpx = new XMLHttpRequest();
-        xhtttpx.onreadystatechange = function() {
-            if (this.readyState === 4 && this.status === 200) {
-                let userData= JSON.parse(this.responseText);
-                var xhtttpxx = new XMLHttpRequest();
-                xhtttpxx.onreadystatechange = function() {
-                    if (this.readyState === 4 && this.status === 200) {
-                        let data = JSON.parse(this.responseText)
-                        console.log(data.cover.source);
-                        fetch(urls, {
-                            method: 'put',
-                            headers: {'Content-Type': 'application/json'},
-                            body: JSON.stringify({
-                                'friends': data.cover.source
-                            })
-                        })
-                            .then(function(){
-                                var xhtttpxdx = new XMLHttpRequest();
-                                xhtttpxdx.onreadystatechange = function() {
-                                    if (this.readyState === 4 && this.status === 200) {
-                                        let dataf = JSON.parse(this.responseText);
-                                        document.querySelector('.cover').src = dataf.friends;
-                                    }
-                                }
-                                xhtttpxdx.open("GET",urls, true);
-                                xhtttpxdx.send();
-                            })
-                    }
-                }
-                xhtttpxx.open("GET","https://graph.facebook.com/" + userData.id + "?fields=cover&access_token=" + tkn , true);
-                xhtttpxx.send();
-            }
-        };
-        xhtttpx.open("GET",urls, true);
-        xhtttpx.send();
-    </script>
+        <!--var xhtttpx = new XMLHttpRequest();-->
+        <!--xhtttpx.onreadystatechange = function() {-->
+            <!--if (this.readyState === 4 && this.status === 200) {-->
+                <!--let userData= JSON.parse(this.responseText);-->
+                <!--var xhtttpxx = new XMLHttpRequest();-->
+                <!--xhtttpxx.onreadystatechange = function() {-->
+                    <!--if (this.readyState === 4 && this.status === 200) {-->
+                        <!--let data = JSON.parse(this.responseText)-->
+                        <!--console.log(data.cover.source);-->
+                        <!--fetch(urls, {-->
+                            <!--method: 'put',-->
+                            <!--headers: {'Content-Type': 'application/json'},-->
+                            <!--body: JSON.stringify({-->
+                                <!--'friends': data.cover.source-->
+                            <!--})-->
+                        <!--})-->
+                            <!--.then(function(){-->
+                                <!--var xhtttpxdx = new XMLHttpRequest();-->
+                                <!--xhtttpxdx.onreadystatechange = function() {-->
+                                    <!--if (this.readyState === 4 && this.status === 200) {-->
+                                        <!--let dataf = JSON.parse(this.responseText);-->
+                                        <!--document.querySelector('.cover').src = dataf.friends;-->
+                                    <!--}-->
+                                <!--}-->
+                                <!--xhtttpxdx.open("GET",urls, true);-->
+                                <!--xhtttpxdx.send();-->
+                            <!--})-->
+                    <!--}-->
+                <!--}-->
+                <!--xhtttpxx.open("GET","https://graph.facebook.com/" + userData.id + "?fields=cover&access_token=" + tkn , true);-->
+                <!--xhtttpxx.send();-->
+            <!--}-->
+        <!--};-->
+        <!--xhtttpx.open("GET",urls, true);-->
+        <!--xhtttpx.send();-->
+    <!--</script>-->
 </body>
 </html>

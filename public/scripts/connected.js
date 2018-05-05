@@ -742,7 +742,8 @@ if (!localStorage.getItem("visted")) {
                         }
                     });
                 }
-                if (country === "România") {
+                console.log(country);
+                if (country === "Romania") {
                     if (!localStorage.getItem("language")) {
                         let lang = ['Romanian'];
                         localStorage.setItem('language', JSON.stringify(lang));
@@ -1025,7 +1026,7 @@ function countDownClock(dteStart, timer) {
 // ^^^^^^^^^^ Clock END ^^^^^^^^^^
 
 // PLAY FUNCTION
-function playFunction(listaretete) {
+function playFunction(listaretete){
     if (volumeLocalStorage[0].sf === "on") {
         buttonSound.play();
     }
@@ -1143,7 +1144,7 @@ function nextQuestion(listaretete) {
                         console.log(listaretete);
                     }
                 };
-                jsonhttp.open("GET", "/public/retete.json", true);
+                jsonhttp.open("GET", "/retete.json", true);
                 jsonhttp.send();
             }
 
@@ -1505,7 +1506,6 @@ playAgainButton.addEventListener('click', function () {
             playAgainButton.disabled = true;
         }
     }
-
     playFunction(listaretete);
 });
 
@@ -1958,28 +1958,60 @@ document.querySelector('#language').addEventListener('click', function () {
                 let lang = ['English'];
                 localStorage.setItem('language', JSON.stringify(lang));
                 en();
-                if (userData.totalScore <= 7) {
+                if (userData.totalScore <= 80) {
                     fetch('users/' + id, {
                         method: 'put',
                         headers: {'Content-Type': 'application/json'},
                         body: JSON.stringify({
-                            'rank': 'Newbie'
+                            'rank': 'Dishwasher'
                         })
                     })
-                } else if (userData.totalScore > 7 && userData.totalScore <= 12) {
+                } else if (userData.totalScore > 80 && userData.totalScore <= 150) {
                     fetch('users/' + id, {
                         method: 'put',
                         headers: {'Content-Type': 'application/json'},
                         body: JSON.stringify({
-                            'rank': 'Beginer'
+                            'rank': 'Kitchenhand'
                         })
                     })
-                } else if (userData.totalScore > 12) {
+                } else if (userData.totalScore > 150 && userData.totalScore <= 300) {
                     fetch('users/' + id, {
                         method: 'put',
                         headers: {'Content-Type': 'application/json'},
                         body: JSON.stringify({
-                            'rank': 'Chef'
+                            'rank': 'Commis Chef'
+                        })
+                    })
+                }else if (userData.totalScore > 300 && userData.totalScore <= 460) {
+                    fetch('users/' + id, {
+                        method: 'put',
+                        headers: {'Content-Type': 'application/json'},
+                        body: JSON.stringify({
+                            'rank': 'Line Chef'
+                        })
+                    })
+                }else if (userData.totalScore > 460 && userData.totalScore <= 1060) {
+                    fetch('users/' + id, {
+                        method: 'put',
+                        headers: {'Content-Type': 'application/json'},
+                        body: JSON.stringify({
+                            'rank': 'Sous Chef'
+                        })
+                    })
+                }else if (userData.totalScore > 1060 && userData.totalScore <= 1870) {
+                    fetch('users/' + id, {
+                        method: 'put',
+                        headers: {'Content-Type': 'application/json'},
+                        body: JSON.stringify({
+                            'rank': 'Head Chef'
+                        })
+                    })
+                }else if (userData.totalScore > 1870 && userData.totalScore <= 2870) {
+                    fetch('users/' + id, {
+                        method: 'put',
+                        headers: {'Content-Type': 'application/json'},
+                        body: JSON.stringify({
+                            'rank': 'Group Chef'
                         })
                     })
                 }
@@ -1993,7 +2025,7 @@ document.querySelector('#language').addEventListener('click', function () {
                         method: 'put',
                         headers: {'Content-Type': 'application/json'},
                         body: JSON.stringify({
-                            'rank': 'Nebie'
+                            'rank': 'Nou'
                         })
                     })
                 } else if (userData.totalScore > 7 && userData.totalScore <= 12) {
@@ -2065,7 +2097,7 @@ document.querySelector('.home').addEventListener('click',function(){
                         method: 'put',
                         headers: {'Content-Type': 'application/json'},
                         body: JSON.stringify({
-                            'rank': 'Noob'
+                            'rank': 'Nou'
                         })
                     })
                 } else if (userData.totalScore > 7 && userData.totalScore <= 12) {
@@ -2100,7 +2132,7 @@ document.querySelector('.home').addEventListener('click',function(){
                         method: 'put',
                         headers: {'Content-Type': 'application/json'},
                         body: JSON.stringify({
-                            'rank': 'Beginer'
+                            'rank': 'Beginner'
                         })
                     })
                 } else if (userData.totalScore > 12) {
@@ -2161,15 +2193,24 @@ xhtttp.open("GET",url, true);
 xhtttp.send();
 
 document.querySelector('.buy-icon').addEventListener('click',function(){
-    let opac = 0;
-    var buyInterval = setInterval(buy, 10);
 
-    function buy() {
-        if (opac >= 1) {
-            clearInterval(opac);
-        } else {
-            opacityWelcome += 0.1;
-        }
-    }
 });
 
+// document.querySelector('#one-hundred').addEventListener('click',function(){
+//     var id = document.querySelector('.user-id').innerHTML;
+//     xhttp.onreadystatechange = function () {
+//         if (this.readyState === 4 && this.status === 200) {
+//             let userData = JSON.parse(this.responseText);
+//             console.log(userData.cookies);
+//                     fetch('users/' + id, {
+//                         method: 'put',
+//                         headers: {'Content-Type': 'application/json'},
+//                         body: JSON.stringify({
+//                             'cookies': userData.cookies + 100
+//                         })
+//                     })
+//             }
+//         }
+//     xhttp.open("GET", "users/" + id, true);
+//     xhttp.send();
+// });

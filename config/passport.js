@@ -15,11 +15,13 @@ app.use(passport.session());
 app.use(cookieParser());
 
 passport.serializeUser(function(user, done) {
-    done(null, user);
+    done(null, user._id);
 });
 
-passport.deserializeUser(function(user, done) {
-    done(null, user);
+passport.deserializeUser(function(id, done) {
+    User.findById(id, function(err, user) {
+        done(err, user);
+    });
 });
 
 passport.use(new FacebookStrategy({
@@ -30,8 +32,11 @@ passport.use(new FacebookStrategy({
     },
     function(accessToken, refreshToken, profile, done) {
         process.nextTick(function(){
-            User.findOne({'facebook.id':profile.id},function(err,user){
-                if(err) return done(err);
+            User.findOne({'id':profile.id},function(err, user){
+                if(err) {
+                    return done(err);
+                    console.log(err);
+                }
                 if(user){
                     return done(null,user);
                     }else{
@@ -41,7 +46,7 @@ passport.use(new FacebookStrategy({
                     newUser.name = profile.displayName;
                     newUser.email = profile.emails[0].value;
                     newUser.friends = "loading..";
-                    newUser.rank = 'New';
+                    newUser.rank = 'Unranked';
                     newUser.cookies = 0;
                     newUser.totalScore = 0;
 

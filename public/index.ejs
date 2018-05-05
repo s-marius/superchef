@@ -37,7 +37,7 @@
         </div>
     </div>
     <div id="welcome-screen">
-        <a href="/auth/facebook" ><button id="loginBtn" class="loginBtn--facebook">Login with Facebook</button></a>
+        <a class="clear" href="/auth/facebook" ><button id="loginBtn" class="loginBtn--facebook">Login with Facebook</button></a>
         <canvas id="pizza"></canvas>
         <p class="pls-wait"><span>P</span><span>L</span><span>E</span><span>A</span><span>S</span><span>E</span><span> </span><span>W</span><span>A</span><span>I</span><span>T</span></p>
         <img src="/assets/scene/big-logo.png" alt="Super Chef" id="logo">
@@ -207,10 +207,10 @@
         </div>
     </div>
     <div id="rank-screen">
-        <button class="back-btn-rank"><i class="back-icon material-icons">arrow_back</i></button>
-        <div class="wood-sign">
-            <p class="your-stats">Your stats</p>
+        <div class="login-req">
+            <a href="/auth/facebook" ><button id="loginBtn" class="loginBtn--facebook-rank">Login with Facebook</button></a>
         </div>
+        <button class="back-btn-rank"><i class="back-icon material-icons">arrow_back</i></button>
     </div>
 </div>
 <script src="/scripts/script.js"></script>
@@ -220,6 +220,65 @@
             .register('/sw.js')
             .then(function() { console.log("Service Worker Registered"); });
     }
+</script>
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId            : '193104474813645',
+            autoLogAppEvents : true,
+            xfbml            : true,
+            version          : 'v3.0'
+        });
+            FB.getLoginStatus(function(response) {
+            if (response.status === 'connected') {
+                if(!localStorage.getItem( 'fbdisconnected' )){
+                    localStorage[ 'fbdisconnected' ] = true;
+                    (function()
+                    {
+                        if( window.localStorage )
+                        {
+                            if( !localStorage.getItem( 'firstLoad' ) )
+                            {
+                                localStorage[ 'firstLoad' ] = true;
+                                window.location.reload();
+                            }
+                                localStorage.removeItem( 'visted' );
+                                localStorage.removeItem( 'language' );
+                                localStorage.removeItem( 'firstLoad' );
+                        }
+                    })();
+                }
+                console.log('Connected but offline..');
+            } else {
+                if(!localStorage.getItem( 'fbdisconnected' )){
+                    localStorage[ 'fbdisconnected' ] = true;
+                (function()
+                {
+                    if( window.localStorage )
+                    {
+                        if( !localStorage.getItem( 'firstLoad' ) )
+                        {
+                            localStorage[ 'firstLoad' ] = true;
+                            window.location.reload();
+                        }
+                            localStorage.removeItem( 'firstLoad' );
+                            localStorage.removeItem( 'visted' );
+                            localStorage.removeItem( 'language' );
+                    }
+                })();
+                }
+                console.log('Disconected and offline..');
+            }
+        });
+    };
+
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
 </script>
 </body>
 </html>

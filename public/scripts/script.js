@@ -1781,7 +1781,6 @@ setTimeout(function(){
             localStorage.setItem('sc_gamevolume', JSON.stringify(volume));
         } else {
             titleSound.play();
-            document.querySelector('#volume').style.background = "rgba(242, 219, 140,0.4)";
             document.querySelector('.on-off').innerHTML = 'on';
             let musicVol = {
                 "music": document.querySelector('.on-off').innerHTML,
@@ -2335,4 +2334,8 @@ document.querySelector('.later').addEventListener('click',function(){
         document.querySelector('.buy-alert-error').style.display = 'none';
     },400);
 
+});
+
+document.querySelector('.clear').addEventListener('click',function(){
+    localStorage.clear();
 });

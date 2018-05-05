@@ -9,7 +9,7 @@ const ejs = require('ejs');
 const passport = require('passport');
 const app = express();
 
-mongoose.connect('mongodb://localhost/usersu');
+mongoose.connect('mongodb://admin:sa5Mmia95@ds117070.mlab.com:17070/superchef');
 mongoose.Promise = global.Promise;
 app.set('view engine', 'ejs');
 
