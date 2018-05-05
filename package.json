@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
@@ -19,6 +20,9 @@
     "mongoose": "^5.0.15",
     "passport": "^0.4.0",
     "passport-facebook": "^2.1.1"
+  },
+  "engines":{
+    "node":"9.11.1"
   },
   "devDependencies": {
     "nodemon": "^1.17.3"
